@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { ApplesComponent } from './apples/apples.component';
+import { LikeComponent } from './like/like.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ApplesComponent } from './apples/apples.component';
     ToolbarComponent,
     HomeComponent,
     ApplesComponent,
+    LikeComponent,
   ],
   imports: [
     BrowserModule,
