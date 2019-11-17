@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { ApplesComponent } from './apples/apples.component';
 import { LikeComponent } from './like/like.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { LikeComponent } from './like/like.component';
     HomeComponent,
     ApplesComponent,
     LikeComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
