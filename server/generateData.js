@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 
-const database = { "posts": [] }
+const database = {}
 
 async function generateData() {
   const url = 'https://jsonplaceholder.typicode.com/posts'
@@ -9,7 +9,7 @@ async function generateData() {
     const response = await fetch(url)
     const posts = await response.json()
 
-    database.posts.push(posts)
+    database.posts = posts
     console.log(JSON.stringify(database))
 
   } catch (e) {
@@ -17,4 +17,4 @@ async function generateData() {
   }
 }
 
-generateData();
+generateData()
