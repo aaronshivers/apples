@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: [ './like.component.css' ],
 })
 export class LikeComponent implements OnInit {
-  private isActive = false;
-  private likesCount = 77;
+  isActive = false;
+  likesCount = 77;
 
   constructor() {
   }
